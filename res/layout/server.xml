@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/serverStateText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" />
+    
+    <EditText
+        android:id="@+id/serverSendEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="#f0f0f0"
+        android:inputType="text"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/serverSendMsgBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#00AF00"
+        android:text="@string/send" />
+    
+    <TextView
+        android:id="@+id/serverChatHis"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#707070"
+        android:gravity="top"	
+		android:layout_marginTop="200dip"
+		android:text="@string/chat_his"
+        android:singleLine="false" />
+    
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">主Activity!</string>
+    <string name="app_name">蓝牙应用程序</string>
+    <string name="server_icon">我是服务器</string>
+    <string name="client_icon">我是客户端</string>
+    <string name="start_discovery">点击搜索服务器 (单击列表选择)</string>
+    <string name="send">发送</string>
+    <string name="server_not_found">没有搜索到服务设备</string>
+    <string name="server_conn_suc">连接服务器成功</string>
+    <string name="chat_his">聊天记录：\n\r</string>
+    <string name="network_test">网络测试</string>
+    <string name="sql_test">SQL测试</string>
+    <string name="start_conn_nw">连接网络</string>
+    <string name="http_conn_nw">HTTP连接</string>
+    <string name="sql_mmid">微信ID：</string>
+    <string name="sql_article">物品名称：</string>
+    <string name="sql_price">单价：</string>
+    <string name="sql_quantity">数量：</string>
+    <string name="sql_mark">备注：</string>
+    <string name="sql_date">购买日期：</string>
+    <string name="sql_hint">请输入</string>
+    <string name="sql_date_hint">默认当天</string>
+    <string name="sql_add">添加</string>
+    <string name="sql_modi_one">修改该条</string>
+	<string name="sql_del_one">删除该条</string>
+	<string name="sql_del_all">删除所有</string>
+	<string name="sql_cancel">取消</string>
+    <string name="sql_query">查询</string>
+    <string name="sql_query_sum">小计金额: </string>
+    <string name="sql_query_hint">输入查询信息</string>
+    <string name="sql_ordered">已代购</string>
+    <string name="sql_not_ordered">未代购</string>
+    <string name="sql_not_shipped">未发货</string>
+    <string name="sql_shipped">已发货</string>
+        
+</resources>

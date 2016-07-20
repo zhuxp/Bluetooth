@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+   	<Button
+	    android:id="@+id/startBtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="30dp"
+	    android:background="#FF0000"
+	    android:layout_centerHorizontal="true"
+	    android:text="@string/http_conn_nw" >
+	</Button>
+
+    <TextView
+        android:id="@+id/nw_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="TextView" />
+
+    <WebView
+        android:id="@+id/nw_webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/nw_textView"
+        android:layout_marginTop="22dp" />
+
+</RelativeLayout>

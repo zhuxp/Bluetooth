@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linerlayoutInputarea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:orientation="horizontal" >
+		
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		   	android:background="#0F0F0F"
+		   	android:textColor="#FFFFFF"
+		   	android:text="@string/sql_mmid"
+		   	android:layout_marginLeft="5dip"
+		></TextView>
+		
+		<EditText
+		    android:id="@+id/mmid"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		    android:gravity="center"
+		   	android:hint="@string/sql_hint"
+		   	android:layout_marginLeft="1dip"
+		></EditText>
+		<CheckBox
+		    android:id="@+id/checkBoxShipped"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="5dip"
+		    android:text="@string/sql_shipped" 
+		/>
+		
+	</LinearLayout >
+	
+    <LinearLayout
+        android:id="@+id/linerlayoutInputarea2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:orientation="horizontal" >
+		
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		   	android:background="#0F0F0F"
+		   	android:textColor="#FFFFFF"
+		   	android:text="@string/sql_article"
+		   	android:layout_marginLeft="5dip"
+		></TextView>
+		
+		<EditText
+		    android:id="@+id/article"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		    android:gravity="center"
+		   	android:hint="@string/sql_hint"
+		   	android:layout_marginLeft="1dip"
+		></EditText>
+		<CheckBox
+		    android:id="@+id/checkBoxOrdered"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="5dip"
+		    android:text="@string/sql_ordered"
+		 />		
+	</LinearLayout >
+	
+    <LinearLayout
+        android:id="@+id/linerlayoutInputarea3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:orientation="horizontal" >
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		   	android:background="#0F0F0F"
+		   	android:textColor="#FFFFFF"
+		   	android:text="@string/sql_price"
+		   	android:layout_marginLeft="5dip"
+		></TextView>
+				        		
+		<EditText
+		    android:id="@+id/price"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		    android:gravity="center"
+		   	android:hint="@string/sql_hint"
+		   	android:inputType="number"
+		   	android:layout_marginLeft="1dip"
+		></EditText>
+		
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		   	android:background="#0F0F0F"
+		   	android:textColor="#FFFFFF"
+		   	android:text="@string/sql_quantity"
+		   	android:layout_marginLeft="5dip"
+		></TextView>
+				        		
+		<EditText
+		    android:id="@+id/quantity"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		    android:gravity="center"
+		   	android:hint="@string/sql_hint"
+		   	android:inputType="number"
+		   	android:layout_marginLeft="1dip"
+		></EditText>		
+    </LinearLayout >
+    <LinearLayout
+        android:id="@+id/linerlayoutInputarea4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:orientation="horizontal" >
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		   	android:background="#0F0F0F"
+		   	android:textColor="#FFFFFF"
+		   	android:text="@string/sql_date"
+		   	android:layout_marginLeft="5dip"
+		></TextView>
+
+		<EditText
+		    android:id="@+id/date"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		    android:gravity="center"
+		    android:ems="10"
+		    android:hint="@string/sql_date_hint"
+		    android:inputType="date" >
+		</EditText>
+	    
+    </LinearLayout >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:orientation="horizontal" >
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		   	android:background="#0F0F0F"
+		   	android:textColor="#FFFFFF"
+		   	android:text="@string/sql_mark"
+		   	android:layout_marginLeft="5dip"
+		></TextView>	
+    	<EditText
+	        android:id="@+id/mark"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="12sp"
+	        android:gravity="center"
+	        android:hint="@string/sql_hint"
+	        android:ems="10" >
+    	</EditText>
+    
+    </LinearLayout>
+
+ 
+	<LinearLayout
+	    android:id="@+id/linerlayoutAction"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dip"
+	    style="?android:attr/buttonBarButtonStyle"
+	    android:orientation="horizontal" >
+		
+		<Button
+		    android:id="@+id/addBtn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		    android:background="#0000FF"
+		    android:layout_weight="2"
+		    android:text="@string/sql_add"/>
+		    
+		<Button
+		    android:id="@+id/modiBtn"
+		    android:visibility="gone"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		    android:layout_marginLeft="20dip"
+		    android:background="#0000FF"
+		    android:layout_weight="2"
+		    android:text="@string/sql_modi_one"/>    
+
+		<Button
+		    android:id="@+id/cancelBtn"
+		    android:visibility="gone"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		    android:layout_marginLeft="20dip"
+		    android:background="#0000FF"
+		    android:layout_weight="2"
+		    android:text="@string/sql_cancel"/>    
+		    		    
+		<Button
+		    android:id="@+id/genDBTest"
+		    android:visibility="visible"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		    android:layout_marginLeft="20dip"
+		    android:background="#0000FF"
+		    android:layout_weight="2"
+		    android:text="GenDB"/>    
+	</LinearLayout >
+	
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop = "5dip" >
+
+	    <EditText
+	        android:id="@+id/queryInput"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@+id/queryBtn"
+	        android:gravity="center"
+	        android:hint="@string/sql_query_hint"
+	        android:layout_weight="2"
+	        android:textSize="15sp" >
+		</EditText>
+	
+	    <Button
+	        android:id="@+id/queryBtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dip"
+	        android:textSize="15sp"
+	        android:layout_marginLeft="5dip"
+	        android:background="#008cff"
+	        android:layout_centerHorizontal="true"
+	        android:text="@string/sql_query" />
+	    
+	    <TextView
+	        android:id="@+id/querySum"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="15sp"
+		   	android:background="#0F0F0F"
+		   	android:textColor="#FFFFFF"
+		   	android:gravity="bottom"
+		   	android:layout_alignParentRight="true"
+		   	android:text=""
+		/>	
+    </RelativeLayout>
+
+	<ListView
+	    android:id="@+id/queryResult"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop = "10dip" >
+	</ListView>
+
+</LinearLayout>

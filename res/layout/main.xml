@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="fill"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/startServerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip"
+        android:background="#008cff"
+        android:text="@string/server_icon" />
+
+    <Button
+        android:id="@+id/startClientBtn"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/startServerBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dip"
+        android:background="#ff8c00"
+        android:text="@string/client_icon" />
+    
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startClientBtn"
+        android:layout_centerHorizontal="true"
+        style="?android:attr/buttonBarButtonStyle"
+        android:orientation="horizontal" >
+
+	    <Button
+	        android:id="@+id/startNetworkBtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="60dp"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginLeft="0dip"
+	        android:background="@color/blue"
+	        android:text="@string/network_test" />
+
+	    <Button
+	        android:id="@+id/startSQLBtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="60dp"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginLeft="20dip"
+	        android:background="@color/blue"
+	        android:text="@string/sql_test" />
+	    
+	    <Button
+	        android:id="@+id/startOtherBtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="60dp"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginLeft="20dip"
+	        android:background="@color/blue"
+	        android:text="Others" />
+	</LinearLayout >
+	
+	<LinearLayout
+	    android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+	    android:layout_margin="10dp" >
+	 
+	    <RelativeLayout
+	        android:id="@+id/rl"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	        
+		    <ImageView
+		        android:id="@+id/imageView"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:adjustViewBounds="true"
+		        android:maxWidth="200dp"
+		        android:maxHeight="200dp"
+		        android:src="@drawable/icon_im" />
+		    
+		    <ImageButton
+		        android:id="@+id/imageButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:layout_alignParentTop="true"
+		        android:src="@drawable/image_button" />
+
+
+	    </RelativeLayout >
+	    
+    </LinearLayout >
+</RelativeLayout>

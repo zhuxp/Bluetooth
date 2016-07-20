@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	
+		<TextView
+			android:id="@+id/mmid"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="2dip"
+			android:textSize="15sp"
+			android:textColor="#008000"
+			android:text="name" />
+		<TextView
+			android:id="@+id/article"
+			android:layout_marginLeft="3dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="13sp"
+			android:text="prod"  />
+	 	<TextView
+			android:id="@+id/price"
+			android:layout_marginLeft="3dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="13sp"
+			android:text="price"  />     
+	 	<TextView
+			android:id="@+id/quantity"
+			android:layout_marginLeft="3dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="13sp"
+			android:text="num"  />     
+	 	<TextView
+			android:id="@+id/subSum"
+			android:layout_marginLeft="3dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="13sp"
+			android:textColor="#a00000"
+			android:text="subsum"  />
+	 	
+	 	<TextView
+			android:id="@+id/date"
+			android:layout_marginLeft="3dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="13sp"
+			android:text="date"  />
+	 	
+	 	<TextView
+			android:id="@+id/ordered"
+			android:layout_marginLeft="3dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="13sp"
+			android:textColor="#a000a0"
+			android:text="oredered"  />
+	 	
+	 	<TextView
+			android:id="@+id/shipped"
+			android:layout_marginLeft="3dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="13sp"
+			android:textColor="#00a0a0"
+			android:text="shipped"  />
+	 		 	
+	</LinearLayout>
+	<TextView
+		android:id="@+id/mark"
+		android:layout_marginLeft="15dip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="12sp"
+		android:textColor="#808080"
+		android:text="mark"  />
+</LinearLayout>
